@@ -1,23 +1,26 @@
-import logo from './logo.svg';
+
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.css'; 
+import Fetchapi from './Second Assignment/Fetchapi';
+// import Counter from './First Assignment/Counter';
+// import { useState, useEffect } from 'react';
+
+
 
 function App() {
+  // const [count, setcount] = useState(1)
+
+  // useEffect(() => {
+  //   console.log("Count" + count)
+  // }, [count])
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Counter count={count} setcount={setcount}/> */}
+
+      {/* ----------------------------- */}
+      <Fetchapi/>
+      {/* ------------------------------ */}
     </div>
   );
 }
